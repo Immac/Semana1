@@ -28,6 +28,9 @@ int main()
     cout << "Robot power level:" << robot.getPowerLevel() << endl;
     cout << "Robot model:" << robot.getModel() << endl;
     cout << "Robot favourite food:" << robot.getFavouriteFood() << endl;
-
+    robot.setFacing(45);
+    robot.doMovement(50);
+    cout << "Robot's current X position: " << robot.getPosX();
+    cout << "Robot's current Y position: " << robot.getPosY();
     return 0;
 }
