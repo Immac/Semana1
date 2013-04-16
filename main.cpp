@@ -30,7 +30,6 @@ int main()
     cout << "Robot favourite food:" << robot.getFavouriteFood() << endl;
     robot.setFacing(45);
     robot.doMovement(50);
-    cout << "Robot's current X position: " << robot.getPosX();
-    cout << "Robot's current Y position: " << robot.getPosY();
+    robot.printPosition();
     return 0;
 }

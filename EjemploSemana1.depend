@@ -23,12 +23,12 @@
 1365787714 source:c:\users\miguelito\downloads\semana1-master\semana1-master\robot.cpp
 	"Robot.h"
 
-1366076676 source:c:\users\miguelito\documents\github\semana1\main.cpp
+1366091331 source:c:\users\miguelito\documents\github\semana1\main.cpp
 	<iostream>
 	<string>
 	"Robot.h"
 
-1366075053 c:\users\miguelito\documents\github\semana1\robot.h
+1366091331 c:\users\miguelito\documents\github\semana1\robot.h
 	<iostream>
 	<string>
 	<math.h>

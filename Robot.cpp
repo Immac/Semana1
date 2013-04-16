@@ -55,7 +55,10 @@ this->pos_x = pos_x;
 void Robot::setPosY(double pos_y){
 this->pos_y = pos_y;
 }
-
+void Robot::printPosition(){
+cout << "Robot's current X position: " << this->getPosX() << endl;
+cout << "Robot's current Y position: " << this->getPosY();
+}
 
 Robot::~Robot()
 {

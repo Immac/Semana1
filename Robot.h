@@ -32,7 +32,7 @@ public:
     void setFacing(double degree);
     void doMovement(int steps);
     void doMovement(int steps, double degree);
-
+    void printPosition();
     virtual ~Robot();
 
 };
