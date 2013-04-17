@@ -7,6 +7,8 @@ Robot::Robot(string name,int power_level,string model, string favourite_food)
     this->model=model;
     this->favourite_food = favourite_food;
     this->setFacing(0);
+    this->setPosX(0);
+    this->setPosY(0);
 }
 
 string  Robot::getName(){
@@ -43,8 +45,9 @@ double facing = this->getFacing();
 
 
 
- x = cos(facing)*(double)steps;
- y = sin(facing)*(double)steps;
+ x += cos(facing)*(double)steps;
+ y += sin(facing)*(double)steps;
+
 setPosX(x);
 setPosY(y);
 }
